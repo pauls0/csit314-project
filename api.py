@@ -1,13 +1,16 @@
-from bs4 import BeautifulSoup
-import requests
-import urllib
+import requests     # used to make a http request
+import urllib       # used to do URL percent-encoding
 
+# function to return an answer from an api
+# input is a string containing a mathemtical operation
+# returns a float of the answer evaluated by the api
 def api(queryString):
-    queryEncoded = urllib.request.pathname2url(queryString)
-    queryURL = "https://www.google.com/search?q=" + queryEncoded
-
-    headers = {'User-agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582"}
-    html = requests.get(queryURL, headers=headers).text
-    answer = BeautifulSoup(html, 'html.parser').select_one('.qv3Wpe').text
     
-    return float(answer)
+    encodedQuery = urllib.request.pathname2url(queryString)     # convert UTF-8 query to URL percent-encoding
+    apiURL = "http://api.mathjs.org/v4/?expr="                  # api endpoint url
+    requestURL = apiURL + encodedQuery                          # make api url for the query
+    apiResponse = requests.get(requestURL)                      # make http request to api
+    answer = apiResponse.text                                   # get the answer element of the response
+    answerFloat = float(answer)                                 # cast answer String to float
+
+    return answerFloat 
