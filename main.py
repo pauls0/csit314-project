@@ -3,8 +3,8 @@ from test_predefined import test_predefined
 from test_random import test_random
 
 def main():
-    a = test_predefined()
-    b = test_random()
+    a = test_random()
+    b = test_predefined()
     
     if (a and b):
         sys.exit(0)

@@ -9,7 +9,7 @@ def executeTest(queryString,answerExpected):
     
 def test_random():
     
-    print("Random Tests Executing:")
+    print("\nRandom Tests Executing:")
     
     test_list = []      # list to store test results
     

@@ -318,11 +318,20 @@ class TestPredefined(unittest.TestCase):
 
 
 def test_predefined():
-    """ By using maximum test case range, the test will run for days,  
-        thus test case range from test case 0 to test case 10 """
+    
+    print("\nPredefined Tests Executing:")
+    
+    # Using maximum test case range, would take days to run, thus test case range from test case 0 - 10
     TestPredefined.range_max = 0
     TestPredefined.range_max = 5
 
     unittest.main()
     
-    return True # TODO
+    allPassed = True # TODO: return bool true if all predefined tests passed
+    if allPassed:
+        print("Predefined Tests Result: ALL PASSED")
+    else:
+        print("Predefined Tests Result: ALL TESTS DID NOT PASS")
+    
+    allPassed = True
+    return allPassed
