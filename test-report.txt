@@ -1,0 +1,260 @@
+
+Executing Random-tests
+Test: ["86+41" == 127.0] True
+Test: ["66-77" == -11.0] True
+Test: ["23/18" == 1.2777777777777777] True
+Test: ["23*5" == 115.0] True
+
+Executing Predefined-tests
+Creating test data..
+Test data created
+
+Performing decimal addition tests..
+Test: ["0+0" == 0.0] True
+Test: ["1.5+1.5" == 3.0] True
+Test: ["2.5+2.5" == 5.0] True
+Test: ["3.5+3.5" == 7.0] True
+Test: ["-8.5+-8.5" == -17.0] True
+Test: ["-7.5+-7.5" == -15.0] True
+Test: ["-6.5+-6.5" == -13.0] True
+Test: ["-5.5+-5.5" == -11.0] True
+Test: ["0+-8.5" == -8.5] True
+Test: ["1.5+-7.5" == -6.0] True
+Test: ["2.5+-6.5" == -4.0] True
+Test: ["3.5+-5.5" == -2.0] True
+Test: ["-8.5+0" == -8.5] True
+Test: ["-7.5+1.5" == -6.0] True
+Test: ["-6.5+2.5" == -4.0] True
+Test: ["-5.5+3.5" == -2.0] True
+
+Performing decimal division tests..
+Test: ["0/0" == nan] True
+Test: ["1.5/1.5" == 1.0] True
+Test: ["2.5/2.5" == 1.0] True
+Test: ["3.5/3.5" == 1.0] True
+Test: ["-8.5/-8.5" == 1.0] True
+Test: ["-7.5/-7.5" == 1.0] True
+Test: ["-6.5/-6.5" == 1.0] True
+Test: ["-5.5/-5.5" == 1.0] True
+Test: ["0/-8.5" == nan] True
+Test: ["1.5/-7.5" == -0.2] True
+Test: ["2.5/-6.5" == -0.38461538461538464] True
+Test: ["3.5/-5.5" == -0.6363636363636364] True
+Test: ["-7.5/1.5" == -5.0] True
+Test: ["-6.5/2.5" == -2.6] True
+Test: ["-5.5/3.5" == -1.5714285714285714] True
+
+Performing decimal multiplication tests..
+Test: ["0*0" == 0.0] True
+Test: ["1.5*1.5" == 2.25] True
+Test: ["2.5*2.5" == 6.25] True
+Test: ["3.5*3.5" == 12.25] True
+Test: ["-8.5*-8.5" == 72.25] True
+Test: ["-7.5*-7.5" == 56.25] True
+Test: ["-6.5*-6.5" == 42.25] True
+Test: ["-5.5*-5.5" == 30.25] True
+Test: ["0*-8.5" == 0.0] True
+Test: ["1.5*-7.5" == -11.25] True
+Test: ["2.5*-6.5" == -16.25] True
+Test: ["3.5*-5.5" == -19.25] True
+Test: ["-8.5*0" == 0.0] True
+Test: ["-7.5*1.5" == -11.25] True
+Test: ["-6.5*2.5" == -16.25] True
+Test: ["-5.5*3.5" == -19.25] True
+
+Performing decimal subtraction tests..
+Test: ["0-0" == 0.0] True
+Test: ["1.5-1.5" == 0.0] True
+Test: ["2.5-2.5" == 0.0] True
+Test: ["3.5-3.5" == 0.0] True
+Test: ["-8.5--8.5" == 0.0] True
+Test: ["-7.5--7.5" == 0.0] True
+Test: ["-6.5--6.5" == 0.0] True
+Test: ["-5.5--5.5" == 0.0] True
+Test: ["0--8.5" == 8.5] True
+Test: ["1.5--7.5" == 9.0] True
+Test: ["2.5--6.5" == 9.0] True
+Test: ["3.5--5.5" == 9.0] True
+Test: ["-8.5-0" == -8.5] True
+Test: ["-7.5-1.5" == -9.0] True
+Test: ["-6.5-2.5" == -9.0] True
+Test: ["-5.5-3.5" == -9.0] True
+
+Performing integer addition tests..
+Test: ["0+0" == 0.0] True
+Test: ["0+1" == 1.0] True
+Test: ["1+0" == 1.0] True
+Test: ["1+1" == 2.0] True
+Test: ["2+2" == 4.0] True
+Test: ["2+3" == 5.0] True
+Test: ["3+2" == 5.0] True
+Test: ["3+3" == 6.0] True
+Test: ["4+4" == 8.0] True
+Test: ["4+5" == 9.0] True
+Test: ["5+4" == 9.0] True
+Test: ["5+5" == 10.0] True
+Test: ["6+6" == 12.0] True
+Test: ["6+7" == 13.0] True
+Test: ["7+6" == 13.0] True
+Test: ["7+7" == 14.0] True
+Test: ["-8+-8" == -16.0] True
+Test: ["-8+-5" == -13.0] True
+Test: ["-5+-8" == -13.0] True
+Test: ["-5+-5" == -10.0] True
+
+Performing integer division tests..
+Test: ["0/0" == nan] True
+Test: ["0/1" == nan] True
+Test: ["1/1" == 1.0] True
+Test: ["2/2" == 1.0] True
+Test: ["2/3" == 0.6666666666666666] True
+Test: ["3/2" == 1.5] True
+Test: ["3/3" == 1.0] True
+Test: ["4/4" == 1.0] True
+Test: ["4/5" == 0.8] True
+Test: ["5/4" == 1.25] True
+Test: ["5/5" == 1.0] True
+Test: ["6/6" == 1.0] True
+Test: ["6/7" == 0.8571428571428571] True
+Test: ["7/6" == 1.1666666666666667] True
+Test: ["7/7" == 1.0] True
+Test: ["-8/-8" == 1.0] True
+Test: ["-8/-5" == 1.6] True
+Test: ["-5/-8" == 0.625] True
+Test: ["-5/-5" == 1.0] True
+
+Performing integer multiplication tests..
+Test: ["0*0" == 0.0] True
+Test: ["0*1" == 0.0] True
+Test: ["1*0" == 0.0] True
+Test: ["1*1" == 1.0] True
+Test: ["2*2" == 4.0] True
+Test: ["2*3" == 6.0] True
+Test: ["3*2" == 6.0] True
+Test: ["3*3" == 9.0] True
+Test: ["4*4" == 16.0] True
+Test: ["4*5" == 20.0] True
+Test: ["5*4" == 20.0] True
+Test: ["5*5" == 25.0] True
+Test: ["6*6" == 36.0] True
+Test: ["6*7" == 42.0] True
+Test: ["7*6" == 42.0] True
+Test: ["7*7" == 49.0] True
+Test: ["-8*-8" == 64.0] True
+Test: ["-8*-5" == 40.0] True
+Test: ["-5*-8" == 40.0] True
+Test: ["-5*-5" == 25.0] True
+
+Performing integer subtraction tests..
+Test: ["0-0" == 0.0] True
+Test: ["0-1" == -1.0] True
+Test: ["1-0" == 1.0] True
+Test: ["1-1" == 0.0] True
+Test: ["2-2" == 0.0] True
+Test: ["2-3" == -1.0] True
+Test: ["3-2" == 1.0] True
+Test: ["3-3" == 0.0] True
+Test: ["4-4" == 0.0] True
+Test: ["4-5" == -1.0] True
+Test: ["5-4" == 1.0] True
+Test: ["5-5" == 0.0] True
+Test: ["6-6" == 0.0] True
+Test: ["6-7" == -1.0] True
+Test: ["7-6" == 1.0] True
+Test: ["7-7" == 0.0] True
+Test: ["-8--8" == 0.0] True
+Test: ["-8--5" == -3.0] True
+Test: ["-5--8" == 3.0] True
+Test: ["-5--5" == 0.0] True
+
+Performing mixed addition tests..
+Test: ["0+0" == 0.0] True
+Test: ["1+0" == 1.0] True
+Test: ["2+1.5" == 3.5] True
+Test: ["3+1.5" == 4.5] True
+Test: ["4+2.5" == 6.5] True
+Test: ["5+2.5" == 7.5] True
+Test: ["6+3.5" == 9.5] True
+Test: ["7+3.5" == 10.5] True
+Test: ["-8+-8.5" == -16.5] True
+Test: ["-5+-8.5" == -13.5] True
+Test: ["-6+-7.5" == -13.5] True
+Test: ["-3+-7.5" == -10.5] True
+Test: ["-4+-6.5" == -10.5] True
+Test: ["-1+-6.5" == -7.5] True
+Test: ["-2+-5.5" == -7.5] True
+Test: ["0+-5.5" == -5.5] True
+Test: ["0+0" == 0.0] True
+Test: ["0+1" == 1.0] True
+Test: ["1.5+2" == 3.5] True
+Test: ["1.5+3" == 4.5] True
+
+Performing mixed division tests..
+Test: ["0/0" == nan] True
+Test: ["2/1.5" == 1.3333333333333333] True
+Test: ["3/1.5" == 2.0] True
+Test: ["4/2.5" == 1.6] True
+Test: ["5/2.5" == 2.0] True
+Test: ["6/3.5" == 1.7142857142857142] True
+Test: ["7/3.5" == 2.0] True
+Test: ["-8/-8.5" == 0.9411764705882353] True
+Test: ["-5/-8.5" == 0.5882352941176471] True
+Test: ["-6/-7.5" == 0.8] True
+Test: ["-3/-7.5" == 0.4] True
+Test: ["-4/-6.5" == 0.6153846153846154] True
+Test: ["-1/-6.5" == 0.15384615384615385] True
+Test: ["-2/-5.5" == 0.36363636363636365] True
+Test: ["0/-5.5" == nan] True
+Test: ["0/0" == nan] True
+Test: ["0/1" == nan] True
+Test: ["1.5/2" == 0.75] True
+Test: ["1.5/3" == 0.5] True
+
+Performing mixed multiplication tests..
+Test: ["0*0" == 0.0] True
+Test: ["1*0" == 0.0] True
+Test: ["2*1.5" == 3.0] True
+Test: ["3*1.5" == 4.5] True
+Test: ["4*2.5" == 10.0] True
+Test: ["5*2.5" == 12.5] True
+Test: ["6*3.5" == 21.0] True
+Test: ["7*3.5" == 24.5] True
+Test: ["-8*-8.5" == 68.0] True
+Test: ["-5*-8.5" == 42.5] True
+Test: ["-6*-7.5" == 45.0] True
+Test: ["-3*-7.5" == 22.5] True
+Test: ["-4*-6.5" == 26.0] True
+Test: ["-1*-6.5" == 6.5] True
+Test: ["-2*-5.5" == 11.0] True
+Test: ["0*-5.5" == 0.0] True
+Test: ["0*0" == 0.0] True
+Test: ["0*1" == 0.0] True
+Test: ["1.5*2" == 3.0] True
+Test: ["1.5*3" == 4.5] True
+
+Performing mixed subtraction tests..
+Test: ["0-0" == 0.0] True
+Test: ["1-0" == 1.0] True
+Test: ["2-1.5" == 0.5] True
+Test: ["3-1.5" == 1.5] True
+Test: ["4-2.5" == 1.5] True
+Test: ["5-2.5" == 2.5] True
+Test: ["6-3.5" == 2.5] True
+Test: ["7-3.5" == 3.5] True
+Test: ["-8--8.5" == 0.5] True
+Test: ["-5--8.5" == 3.5] True
+Test: ["-6--7.5" == 1.5] True
+Test: ["-3--7.5" == 4.5] True
+Test: ["-4--6.5" == 2.5] True
+Test: ["-1--6.5" == 5.5] True
+Test: ["-2--5.5" == 3.5] True
+Test: ["0--5.5" == 5.5] True
+Test: ["0-0" == 0.0] True
+Test: ["0-1" == -1.0] True
+Test: ["1.5-2" == -0.5] True
+Test: ["1.5-3" == -1.5] True
+
+
+--FINAL TEST RESULT--
+Test Result Random-tests: ALL PASSED
+Test Result Predefined-tests: ALL PASSED
