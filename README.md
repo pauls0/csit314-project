@@ -23,5 +23,5 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
           
 # Run the python code
-python main.py > test-report.txt
+python CalcTest.py > test-report.txt
 ```
