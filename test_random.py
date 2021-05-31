@@ -24,8 +24,6 @@ def executeTest(queryString,answerExpected):
     
 def test_random():
     
-    print("\nRandom Tests Executing:")
-    
     test_list = []      # list to store test results
     
     # Random test of addition
@@ -61,11 +59,5 @@ def test_random():
     for test in test_list:
         if (test == False):
             allPassed = False
-   
-    # print overall Random Testing Result
-    if allPassed:
-        print("Random Tests Result: ALL PASSED")
-    else:
-        print("Random Tests Result: ALL TESTS DID NOT PASS")
         
     return allPassed
