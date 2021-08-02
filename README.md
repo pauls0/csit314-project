@@ -1,27 +1,13 @@
 # csit314-project
-Create an automated test of a software
+Experiment with automated unit testing in python.
 
-Requirements:
-- Develop a software testing tool
-- follow Test Driven Development methodology
-- tool must support automated:
-    - execution of the software under test
-    - randomly generated test cases
-    - predefined test cases
-    - result checking
-    - test report generation
+- Support randomly/predefined test cases, result checking, generation of a test report
+- Software being tested is MathJS API: https://api.mathjs.org
 
-Software tested:
-API being tested is https://api.mathjs.org
+---
 
-How to run the testing tool:
-```
-# Install the python package manager pip to satisfy our dependancies
-python -m pip install --upgrade pip
-
-# Run pip install on the requirments file
-pip install -r requirements.txt
-          
-# Run the python code
-python CalcTest.py > test-report.txt
-```
+#### Dependancies:
+`pip install -r requirements.txt`
+       
+#### Run:
+`python CalcTest.py > test-report.txt`
